@@ -50,6 +50,11 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
+import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-midrange-by@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-midrange-by/tags). For example,
+
+```javascript
 import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-midrange-by@v0.1.0-deno/mod.js';
 ```
 
@@ -271,7 +276,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-d
 import getDType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-midrange-by@v0.1.0-deno/mod.js';
+import midrangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-midrange-by@deno/mod.js';
 
 // Define a function for generating an object having a random value:
 function random() {
